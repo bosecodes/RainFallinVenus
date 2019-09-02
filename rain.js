@@ -28,7 +28,7 @@ function Drop() {
 var drops = [];
 
 function setup() {
-  createCanvas(640, 360);
+  createCanvas(1280, 720);
   for (var i = 0; i < 500; i++) {
     drops[i] = new Drop();
   }
